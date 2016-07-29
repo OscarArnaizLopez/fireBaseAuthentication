@@ -1,4 +1,5 @@
-Firebase Authentication Quickstart
+
+Firebase Authentication Demo app
 =============================
 
 Introduction
@@ -55,44 +56,8 @@ Getting Started
     - Select **Sign In** and select Twitter to begin.
 - Note: you can also integrate with Twitter via Fabric using `[Fabric with:@[ [Twitter class] ]];`
 
-### Custom Authentication Setup
-- Go to the [Google Developers Console](https://console.developers.google.com/project) and navigate to your project:
-    - From the left "hamburger" menu navigate to the **API Manager** tab.
-    - Click on the **Credentials** item in the left column.
-    - Click **New credentials** and select **Service account key**. Select **New service account**,
-    pick any name, and select **JSON** as the key type. Then click **Create**.
-    - You should now have a new JSON file for your service account in your Downloads directory.
-- Open the file `web/auth.html` in your computer's web browser.
-    - Click **Choose File** and upload the JSON file you just downloaded.
-    - Enter any User ID and click **Generate**.
-    - Copy the token link displayed.
-- Run the app on the simulator.
-    - Select **Sign In** and select Custom to begin.
-    - Paste in the token you generated earlier.
-    - When you return to the main screen, you should see the User ID you entered when generating the
-      token.
 
 Support
 -------
 
 - [Firebase Support](https://firebase.google.com/support/)
-
-License
--------
-
-Copyright 2016 Google, Inc.
-
-Licensed to the Apache Software Foundation (ASF) under one or more contributor
-license agreements.  See the NOTICE file distributed with this work for
-additional information regarding copyright ownership.  The ASF licenses this
-file to you under the Apache License, Version 2.0 (the "License"); you may not
-use this file except in compliance with the License.  You may obtain a copy of
-the License at
-
-  http://www.apache.org/licenses/LICENSE-2.0
-
-Unless required by applicable law or agreed to in writing, software
-distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
-WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.  See the
-License for the specific language governing permissions and limitations under
-the License.
